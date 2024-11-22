@@ -1,0 +1,31 @@
+.main {
+    margin-top: 50px;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 70px;
+        padding: 30px 68px;
+        background-color: var(--foreground);
+    }
+
+    &__slider {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__title {
+        font-size: 30px;
+        font-weight: 500;
+        color: var(--white);
+    }
+
+    &__flags {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+}   
